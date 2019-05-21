@@ -32,6 +32,7 @@
     "Pictures_Library_Access": "true",
     "Proximity": "true",
     "Removable_Storage": "true",
+    "SELECTED_THEME": "default",
     "Server side mobile web": "false",
     "Shared_User_Certificate": "true",
     "Shared_User_Certificates": "true",
@@ -278,6 +279,10 @@
     "category": "app",
     "chat": "false",
     "cloud_account_guid": "387e22cf-1102-4089-bfdb-4e1b7aceb1b2",
+    "cloud_account_id": "100000054",
+    "cloud_env_GUID": "81b92ec3-af00-4366-b13b-509455d1c3cd",
+    "cloud_env_name": "Kony - Matt Trevathan-Kony Demo AppFactory",
+    "cloud_url": "https://a100000054001.konycloud.com",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -668,9 +673,11 @@
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",

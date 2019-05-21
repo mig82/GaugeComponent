@@ -40,7 +40,10 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "canvasWidth": 1200,
+    "children": [
+        "gaugeFlex"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
