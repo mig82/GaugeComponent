@@ -38,10 +38,15 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "customProperties": {},
+    "customProperties": {
+        "gaugeId": 1,
+        "hand": 7,
+        "handLabel": "7",
+        "title": "Number of meetings"
+    },
     "cwEvents": [],
-    "cwid": "jsSPACustomWidget7988722082",
-    "id": "TPW0a810de7a82ae43",
+    "cwid": "jsSPACustomWidget7988722089",
+    "id": "TPW0a60f6b449af149",
     "info": null,
     "ipad": {
         "render": false
@@ -54,7 +59,7 @@
     "kiosk": {
         "render": false
     },
-    "kuid": "a3f8b2b2e6c442809cea78901e7a3955",
+    "kuid": "dad051e3391849138c7f1dd89bf11b7e",
     "name": "Gauge-kony.ui",
     "nameSpaceIndex": 0,
     "parent": "gaugeFlex",

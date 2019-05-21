@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <customComponent>
+    <property categoryType="Custom" exclude="false" name="hand" options="" propertyName="" type="Number" value="false">
+        <defaultValue></defaultValue>
+        <jsDataType></jsDataType>
+        <newValue>
+            <stringValue></stringValue>
+        </newValue>
+        <propertySelection>false</propertySelection>
+        <propertyValue></propertyValue>
+        <uniqueID>jsSPACustomWidgetPSP79887220810</uniqueID>
+    </property>
+    <property categoryType="Custom" exclude="false" name="title" options="" propertyName="" type="String" value="">
+        <defaultValue></defaultValue>
+        <jsDataType></jsDataType>
+        <newValue>
+            <stringValue></stringValue>
+        </newValue>
+        <propertySelection>false</propertySelection>
+        <propertyValue></propertyValue>
+        <uniqueID>jsSPACustomWidgetPSP79887220811</uniqueID>
+    </property>
+    <property categoryType="Custom" exclude="false" name="handLabel" options="" propertyName="" type="String" value="">
+        <defaultValue></defaultValue>
+        <jsDataType></jsDataType>
+        <newValue>
+            <stringValue></stringValue>
+        </newValue>
+        <propertySelection>false</propertySelection>
+        <propertyValue></propertyValue>
+        <uniqueID>jsSPACustomWidgetPSP79887220812</uniqueID>
+    </property>
+     <property categoryType="Custom" exclude="false" name="gaugeId" options="" propertyName="" type="Number" value="false">
+        <defaultValue></defaultValue>
+        <jsDataType></jsDataType>
+        <newValue>
+            <stringValue></stringValue>
+        </newValue>
+        <propertySelection>false</propertySelection>
+        <propertyValue></propertyValue>
+        <uniqueID>jsSPACustomWidgetPSP79887220813</uniqueID>
+    </property>
     <isOverride>false</isOverride>
     <i18nSupported>true</i18nSupported>
-    <id>jsSPACustomWidget7988722082</id>
-    <konyWrapperFiles>resources/thirdpartywidgets/gaugeWidget/widgetwrapper/Gauge.js</konyWrapperFiles>
-    <libraryFiles>resources/thirdpartywidgets/gaugeWidget/widgetwrapper/Gauge.js</libraryFiles>
-    <libraryFiles>resources/thirdpartywidgets/gaugeWidget/libraries/compressed.js</libraryFiles>
+    <id>jsSPACustomWidget7988722089</id>
+    <konyWrapperFiles>resources\thirdpartywidgets\gaugeWidget\widgetwrapper\Gauge.js</konyWrapperFiles>
+    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\animated.js</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\charts.js</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\core.js</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\dataviz.js</libraryFiles>
     <libraryName>gaugeWidget</libraryName>
     <marginSupported>true</marginSupported>
     <name>Gauge</name>

@@ -3,12 +3,77 @@
         "libraryName": "gaugeWidget",
         "i18nSupported": "true",
         "marginSupported": "true",
+        "property": [{
+            "newValue": {
+                "stringValue": ""
+            },
+            "defaultValue": "",
+            "jsDataType": "",
+            "propertyValue": "",
+            "type": "Number",
+            "categoryType": "Custom",
+            "propertyName": "",
+            "propertySelection": "false",
+            "name": "hand",
+            "options": "",
+            "exclude": "false",
+            "value": "false",
+            "uniqueID": "jsSPACustomWidgetPSP79887220810"
+        }, {
+            "newValue": {
+                "stringValue": ""
+            },
+            "defaultValue": "",
+            "jsDataType": "",
+            "propertyValue": "",
+            "type": "String",
+            "categoryType": "Custom",
+            "propertyName": "",
+            "propertySelection": "false",
+            "name": "title",
+            "options": "",
+            "exclude": "false",
+            "value": "",
+            "uniqueID": "jsSPACustomWidgetPSP79887220811"
+        }, {
+            "newValue": {
+                "stringValue": ""
+            },
+            "defaultValue": "",
+            "jsDataType": "",
+            "propertyValue": "",
+            "type": "String",
+            "categoryType": "Custom",
+            "propertyName": "",
+            "propertySelection": "false",
+            "name": "handLabel",
+            "options": "",
+            "exclude": "false",
+            "value": "",
+            "uniqueID": "jsSPACustomWidgetPSP79887220812"
+        }, {
+            "newValue": {
+                "stringValue": ""
+            },
+            "defaultValue": "",
+            "jsDataType": "",
+            "propertyValue": "",
+            "type": "Number",
+            "categoryType": "Custom",
+            "propertyName": "",
+            "propertySelection": "false",
+            "name": "gaugeId",
+            "options": "",
+            "exclude": "false",
+            "value": "false",
+            "uniqueID": "jsSPACustomWidgetPSP79887220813"
+        }],
         "isOverride": "false",
-        "libraryFiles": ["resources/thirdpartywidgets/gaugeWidget/widgetwrapper/Gauge.js", "resources/thirdpartywidgets/gaugeWidget/libraries/compressed.js"],
+        "libraryFiles": ["resources\\thirdpartywidgets\\gaugeWidget\\libraries\\animated.js", "resources\\thirdpartywidgets\\gaugeWidget\\libraries\\charts.js", "resources\\thirdpartywidgets\\gaugeWidget\\libraries\\core.js", "resources\\thirdpartywidgets\\gaugeWidget\\libraries\\dataviz.js"],
         "name": "Gauge",
         "paddingSupported": "true",
-        "id": "jsSPACustomWidget7988722082",
+        "id": "jsSPACustomWidget7988722089",
         "platformID": "0",
-        "konyWrapperFiles": "resources/thirdpartywidgets/gaugeWidget/widgetwrapper/Gauge.js"
+        "konyWrapperFiles": "resources\\thirdpartywidgets\\gaugeWidget\\widgetwrapper\\Gauge.js"
     }
 }

@@ -23,40 +23,39 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s47383a68dfd4851899bc22cfddf75e1",
+    "_skin_": "s688ba8a13a740acb445da5543b3df10",
     "_top_": {
         "type": "string",
         "value": "60dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "600dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "TPW0a60f6b449af149"
+        "TPW0a86ab605623740",
+        "CopyTPW0b2d30fa41e9643"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "gaugeFlex",
-    "ide_onTouchStart": "AS_FlexContainer_e8c1c0fece654f9baf7b9123e1181a24",
+    "id": "gaugeFlex2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b0c50badc7dc4d44af2193dae7af7c18",
-    "layouttype": 2,
+    "kuid": "b1f7788701f24a65a20601353eca4334",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "Form1",
-    "pf": "Form1",
+    "parent": "Form2",
+    "pf": "Form2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

@@ -1,0 +1,37 @@
+{
+    "AS_FlexContainer_e8c1c0fece654f9baf7b9123e1181a24": {
+        "id": "AS_FlexContainer_e8c1c0fece654f9baf7b9123e1181a24",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f9ed119b193345fdb9baad493347e461"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f2e0b4d457dd47768864a9bc0c596dfe",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "cf0ca8f702334c0d9171e837c4f9efd1",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onTouchStart\",\n\t\"widgetId\" : \"gaugeFlex\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

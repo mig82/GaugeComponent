@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCustom",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "250dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "android": {
+        "render": false
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "customProperties": {
+        "gaugeId": 3,
+        "hand": 2,
+        "handLabel": "2",
+        "title": "Judy"
+    },
+    "cwEvents": [],
+    "cwid": "jsSPACustomWidget7988722089",
+    "id": "CopyTPW0b2d30fa41e9643",
+    "info": null,
+    "ipad": {
+        "render": false
+    },
+    "iphone": {
+        "render": false
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "e01a362871d54034afdc1da2cd8c04a0",
+    "name": "Gauge-kony.ui",
+    "nameSpaceIndex": 0,
+    "parent": "gaugeFlex2",
+    "pf": "Form2",
+    "platformKey": "spa",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "tabrcandroid": {
+        "render": false
+    },
+    "wType": "TPW",
+    "watchos": {
+        "render": false
+    },
+    "widgetIndex": 0,
+    "windows10": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}
