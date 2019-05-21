@@ -10,8 +10,8 @@
     <isOverride>false</isOverride>
     <i18nSupported>true</i18nSupported>
     <id>jsSPACustomWidget13930265791</id>
-    <konyWrapperFiles>resources/thirdpartywidgets/widgetwrapper/Gauge.js</konyWrapperFiles>
-    <libraryFiles>resources/thirdpartywidgets/widgetwrapper/Gauge.js</libraryFiles>
+    <konyWrapperFiles>resources/thirdpartywidgets/gaugeWidget/widgetwrapper/Gauge.js</konyWrapperFiles>
+    <libraryFiles>resources/thirdpartywidgets/gaugeWidget/libraries/compressed.js</libraryFiles>
     <libraryName>AmCharts</libraryName>
     <marginSupported>true</marginSupported>
     <name>Gauge</name>

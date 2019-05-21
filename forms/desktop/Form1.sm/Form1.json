@@ -51,9 +51,11 @@
             "name": "Form1Controller"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "Form1",
@@ -84,9 +86,13 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "desktopweb",
+    "prevDevice": "desktopweb",
+    "prevPlatform": "desktopweb",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
+    "shellCSS": "desktop",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

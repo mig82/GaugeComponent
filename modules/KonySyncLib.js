@@ -1,5 +1,5 @@
 // -- SDK File : KonySyncLib.js 
-//  --Generated On Fri May 03 14:48:35 IST 2019******************* 
+//  --Generated On Fri May 10 19:32:17 IST 2019******************* 
 //  **************** Start jsonWriter.js*******************
 //#ifdef iphone
 	//#define KONYSYNC_IOS

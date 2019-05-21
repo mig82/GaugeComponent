@@ -7,21 +7,24 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "isDefault": true,
-                    "enable": true
+                    "enable": true,
+                    "filepath": "/Users/rozhsurchi/KonyVizEWS/GuageComponent/nativebindings/iOS/11.0/Kony_FileStorage-iOS-11.0.zip"
                 },
                 "Kony_SyncV2-iOS-11.0": {
                     "title": "Kony_SyncV2",
                     "platform": "iOS",
                     "os": "11.0",
                     "isDefault": true,
-                    "enable": true
+                    "enable": true,
+                    "filepath": "/Users/rozhsurchi/KonyVizEWS/GuageComponent/nativebindings/iOS/11.0/Kony_SyncV2-iOS-11.0.zip"
                 },
                 "Kony_SDKCommons-iOS-11.0": {
                     "title": "Kony_SDKCommons",
                     "platform": "iOS",
                     "os": "11.0",
                     "isDefault": true,
-                    "enable": true
+                    "enable": true,
+                    "filepath": "/Users/rozhsurchi/KonyVizEWS/GuageComponent/nativebindings/iOS/11.0/Kony_SDKCommons-iOS-11.0.zip"
                 }
             }
         },
@@ -32,21 +35,24 @@
                     "platform": "Android",
                     "os": "4.0",
                     "isDefault": true,
-                    "enable": true
+                    "enable": true,
+                    "filepath": "/Users/rozhsurchi/KonyVizEWS/GuageComponent/nativebindings/Android/4.0/Kony_FileStorage-Android-4.0.zip"
                 },
                 "Kony_SDKCommons-Android-4.0": {
                     "title": "Kony_SDKCommons",
                     "platform": "Android",
                     "os": "4.0",
                     "isDefault": true,
-                    "enable": true
+                    "enable": true,
+                    "filepath": "/Users/rozhsurchi/KonyVizEWS/GuageComponent/nativebindings/Android/4.0/Kony_SDKCommons-Android-4.0.zip"
                 },
                 "Kony_SyncV2-Android-4.0": {
                     "title": "Kony_SyncV2",
                     "platform": "Android",
                     "os": "4.0",
                     "isDefault": true,
-                    "enable": true
+                    "enable": true,
+                    "filepath": "/Users/rozhsurchi/KonyVizEWS/GuageComponent/nativebindings/Android/4.0/Kony_SyncV2-Android-4.0.zip"
                 }
             }
         }

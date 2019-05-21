@@ -1,0 +1,1 @@
+<application id="GaugeCompTest" name="GuageComponent" cwixmlversion="2.0" language="js"><jsnamespace namespace="com.belfius" iphoneheaders="" ipadheaders=""><cwiclasses><cwiclass jsname="Gauge"><classmappings></classmappings><widgetproperties></widgetproperties><widgetmethods></widgetmethods></cwiclass></cwiclasses></jsnamespace></application>

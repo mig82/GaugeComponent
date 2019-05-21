@@ -280,7 +280,7 @@
     "chat": "false",
     "cloud_account_guid": "387e22cf-1102-4089-bfdb-4e1b7aceb1b2",
     "cloud_account_id": "100000054",
-    "cloud_env_GUID": "81b92ec3-af00-4366-b13b-509455d1c3cd",
+    "cloud_env_GUID": "fdc207d0-c64b-481c-94d6-ee63f904c12a",
     "cloud_env_name": "Kony - Matt Trevathan-Kony Demo AppFactory",
     "cloud_url": "https://a100000054001.konycloud.com",
     "codeGeneration": "false",
@@ -406,7 +406,7 @@
         "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
         "isEnableJSContaineriOS": true,
-        "isModified": false
+        "isModified": true
     },
     "objects3D": "false",
     "pasteboardtype": "systemlevel",

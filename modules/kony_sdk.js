@@ -1,5 +1,5 @@
  /*
-  * kony-sdk-ide Version 8.4.14
+  * kony-sdk-ide Version 8.4.16
   */
         
 //#ifdef iphone
@@ -464,7 +464,7 @@ kony.sdk.isInitialized = false;
 kony.sdk.currentInstance = null;
 kony.sdk.isLicenseUrlAvailable = true;
 kony.sdk.constants = kony.sdk.constants || {};
-kony.sdk.version = "8.4.14";
+kony.sdk.version = "8.4.16";
 kony.sdk.logsdk = new konySdkLogger();
 kony.sdk.syncService = null;
 kony.sdk.dataStore = kony.sdk.dataStore || new konyDataStore();
@@ -11133,7 +11133,8 @@ function MetricsService(konyRef) {
 		eventBufferCount = reportEventBufferBackupArray.length + reportEventBufferArray.length;
 
 		if (eventBufferCount === eventConfig["eventBufferMaxCount"]) {
-			throw new Exception(kony.sdk.errorConstants.DATA_STORE_EXCEPTION, "Reached maximum limit to store events");
+			kony.sdk.logsdk.warn("Reached maximum limit of '" + eventBufferCount + "' events in buffer, No more events will be stored");
+			return;
 		}
 		var reportEventMap = {};
 		reportEventMap.ts = kony.sdk.formatCurrentDate(new Date());
@@ -16251,6 +16252,10 @@ kony.mbaas.invokeMbaasServiceFromKonyStudio = function(url, inputParam, serviceI
     if (inputParam && inputParam["httpRequestOptions"] && inputParam["httpRequestOptions"] instanceof Object) {
         options["httpRequestOptions"] = inputParam["httpRequestOptions"];
         delete inputParam["httpRequestOptions"];
+    }
+    if (inputParam && inputParam["xmlHttpRequestOptions"] && inputParam["xmlHttpRequestOptions"] instanceof Object) {
+        options["xmlHttpRequestOptions"] = inputParam["xmlHttpRequestOptions"];
+        delete inputParam["xmlHttpRequestOptions"];
     }
     var headers = null;
     if (inputParam && inputParam["httpheaders"]) {
