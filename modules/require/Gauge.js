@@ -1,22 +1,26 @@
 //Require modules
 Gauge = {
 	initializeWidget: function(parentNode, widgetModel) {
-		debugger;
 		console.log("flag-0");
 		
-		parentNode.innerHTML = "<div id='chartdiv'>Hello World</div>";
-
-		this.loadAmChartsScripts()
-		.then(() => {
-			console.log("flag-4");
-			this.createGaugeChart();
+		parentNode.innerHTML = "<div id='chartdiv'></div>";
+		
+		var appendToElm = document.getElementsByTagName('head')[0];
+		var self = this;
+		self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/core.js")
+			.then(function() {
+			self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/charts.js")
+				.then(function() {
+					// Create chart
+		  			self.createGaugeChart();
+				}
+			);
 		});
 		
 		
 	},
 	
 	modelChange: function(widgetModel, propertyChanged, propertyValue) {
-		debugger;
 	},
 	
 	loadScript: function(parent, srcUrl){
@@ -43,34 +47,11 @@ Gauge = {
 		});
 	},
 
-	loadAmChartsScripts: function(){
-		
-		var appendToElm = document.getElementsByTagName('head')[0];
-		//var appendToElm = document.getElementsByTagName('body')[0];
-
-		return this.loadScript(appendToElm, "https://www.amcharts.com/lib/version/4.4.6/core.js")
-		.then(() => {
-			console.log("flag-1");
-			this.loadScript(appendToElm, "https://www.amcharts.com/lib/version/4.4.6/charts.js");
-		})
-		.then(() => {
-			console.log("flag-2");
-			this.loadScript(appendToElm, "https://www.amcharts.com/lib/version/4.4.6/themes/dataviz.js");
-		})
-		.then(() => {
-			console.log("flag-3");
-			this.loadScript(appendToElm, "https://www.amcharts.com/lib/version/4.4.6/themes/animated.js");
-		});
-	},
-
 	createGaugeChart: function(){
 		am4core.ready(function() {
 
 			console.log("flag-5");
 			
-			// Themes begin
-			am4core.useTheme(am4themes_dataviz);
-			am4core.useTheme(am4themes_animated);
 			// Themes end
 
 			// create chart

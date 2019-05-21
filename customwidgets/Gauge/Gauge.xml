@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <customComponent>
-    <property categoryType="Custom" exclude="false" name="hand" options="" propertyName="" type="Number" value="0">
-        <defaultValue>0</defaultValue>
-        <jsDataType></jsDataType>
-        <propertySelection>false</propertySelection>
-        <propertyValue></propertyValue>
-        <uniqueID>jsSPACustomWidgetPSP13930265792</uniqueID>
-    </property>
     <isOverride>false</isOverride>
     <i18nSupported>true</i18nSupported>
-    <id>jsSPACustomWidget13930265791</id>
+    <id>jsSPACustomWidget7988722082</id>
     <konyWrapperFiles>resources/thirdpartywidgets/gaugeWidget/widgetwrapper/Gauge.js</konyWrapperFiles>
+    <libraryFiles>resources/thirdpartywidgets/gaugeWidget/widgetwrapper/Gauge.js</libraryFiles>
     <libraryFiles>resources/thirdpartywidgets/gaugeWidget/libraries/compressed.js</libraryFiles>
-    <libraryName>AmCharts</libraryName>
+    <libraryName>gaugeWidget</libraryName>
     <marginSupported>true</marginSupported>
     <name>Gauge</name>
     <paddingSupported>true</paddingSupported>
