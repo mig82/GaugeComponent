@@ -11,10 +11,15 @@ Gauge = {
 			.then(function() {
 			self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/charts.js")
 				.then(function() {
-					// Create chart
-		  			self.createGaugeChart();
-				}
-			);
+					self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/themes/dataviz.js")
+					.then(function() {
+						self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/themes/animated.js")
+						.then(function() {
+							// Create chart
+		  					self.createGaugeChart();
+						});
+				});	
+			});
 		});
 		
 		
@@ -52,6 +57,9 @@ Gauge = {
 
 			console.log("flag-5");
 			
+			// Themes begin
+			am4core.useTheme(am4themes_dataviz);
+			am4core.useTheme(am4themes_animated);
 			// Themes end
 
 			// create chart
