@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <customComponent>
-    <property categoryType="Custom" exclude="false" name="hand" options="" propertyName="" type="Number" value="false">
+    <property categoryType="Custom" exclude="false" name="hand" options="" propertyName="" type="Number" value="">
         <defaultValue></defaultValue>
         <jsDataType></jsDataType>
         <newValue>
@@ -30,7 +30,7 @@
         <propertyValue></propertyValue>
         <uniqueID>jsSPACustomWidgetPSP79887220812</uniqueID>
     </property>
-     <property categoryType="Custom" exclude="false" name="gaugeId" options="" propertyName="" type="Number" value="false">
+    <property categoryType="Custom" exclude="false" name="gaugeId" options="" propertyName="" type="Number" value="">
         <defaultValue></defaultValue>
         <jsDataType></jsDataType>
         <newValue>
@@ -40,13 +40,20 @@
         <propertyValue></propertyValue>
         <uniqueID>jsSPACustomWidgetPSP79887220813</uniqueID>
     </property>
+    <property categoryType="Custom" exclude="false" name="test" options="" propertyName="" type="String" value="">
+        <defaultValue></defaultValue>
+        <jsDataType></jsDataType>
+        <propertySelection>false</propertySelection>
+        <propertyValue></propertyValue>
+        <uniqueID>jsSPACustomWidgetPSP89206198213</uniqueID>
+    </property>
     <isOverride>false</isOverride>
     <i18nSupported>true</i18nSupported>
     <id>jsSPACustomWidget7988722089</id>
     <konyWrapperFiles>resources\thirdpartywidgets\gaugeWidget\widgetwrapper\Gauge.js</konyWrapperFiles>
-    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\animated.js</libraryFiles>
-    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\charts.js</libraryFiles>
     <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\core.js</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\charts.js</libraryFiles>
+    <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\animated.js</libraryFiles>
     <libraryFiles>resources\thirdpartywidgets\gaugeWidget\libraries\dataviz.js</libraryFiles>
     <libraryName>gaugeWidget</libraryName>
     <marginSupported>true</marginSupported>

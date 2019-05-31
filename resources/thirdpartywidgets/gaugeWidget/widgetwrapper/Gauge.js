@@ -27,16 +27,13 @@ Gauge = {
 			.then(function() {
 			self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/charts.js")
 				.then(function() {
-					self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/themes/dataviz.js")
+					self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/themes/animated.js")
 					.then(function() {
-						self.loadScript(appendToElm, "https://www.amcharts.com/lib/4/themes/animated.js")
-						.then(function() {
-							// Create chart
-		  					self.createGaugeChart();
-						});
-				});	
+						// Create chart
+						self.createGaugeChart();
+					});
+				});
 			});
-		});
 		
 		
 	},
@@ -74,8 +71,7 @@ Gauge = {
 		am4core.ready(function() {
 			
 			// Themes begin
-			// am4core.useTheme(am4themes_dataviz);
-			// am4core.useTheme(am4themes_animated);
+			am4core.useTheme(am4themes_animated);
 			// Themes end
 
 			for (var idx in self.gaugeCharts) {
@@ -161,13 +157,15 @@ Gauge = {
 					hand.innerRadius = am4core.percent(10);
 					hand.startWidth = 7;
 					hand.pin.disabled = true;
-					hand.value = chartItem.hand;
+					hand.value = 0;
+					
+					hand.showValue(chartItem.hand, am4core.ease.cubicOut);
 
-					hand.events.on("propertychanged", function(ev) {
-						range0.endValue = ev.target.value;
-						range1.value = ev.target.value;
-						axis2.invalidate();
-					});
+					// hand.events.on("propertychanged", function(ev) {
+					// 	range0.endValue = ev.target.value;
+					// 	range1.value = ev.target.value;
+					// 	axis2.invalidate();
+					// });
 				}
 
 			}

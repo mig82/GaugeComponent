@@ -42,7 +42,8 @@
         "gaugeId": 1,
         "hand": 7,
         "handLabel": "7",
-        "title": "Number of meetings"
+        "test": null,
+        "title": "Total number of meetings"
     },
     "cwEvents": [],
     "cwid": "jsSPACustomWidget7988722089",

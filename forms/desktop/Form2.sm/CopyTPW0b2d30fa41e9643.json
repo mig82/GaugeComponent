@@ -42,6 +42,7 @@
         "gaugeId": 3,
         "hand": 2,
         "handLabel": "2",
+        "test": null,
         "title": "Judy"
     },
     "cwEvents": [],
